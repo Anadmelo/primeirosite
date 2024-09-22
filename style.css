@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+header > h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+div{
+    box-shadow: 0px 0px 20px rgba(23, 32, 21, 0.715);
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    font-weight: bolder;
+    color: rgb(46, 46, 46);
+}
+
+h2{
+    padding: 20px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    
+}
+
+.img > p{
+    display: inline-block;
+    background-color: rgba(185, 185, 185, 0.027);
+    color: white;
+    width: 700px;
+    margin: 5px;
+    text-shadow: 2px 2px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    
+    
+}
+.normal{
+    background-color: white;
+    color: black;
+    
+}
+
+.img{
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.767);
+    background-attachment: fixed;
+
+}
+
+#img1{
+    
+    background-image: url(imagens/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%; /* A imagem vai ocupar 100% do contêiner */
+    height: auto;
+}
+
+#img2{
+    height: 30vh;
+    background-image: url(imagens/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%; /* A imagem vai ocupar 100% do contêiner */
+    height: auto;
+}
+
+
+#eu{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
