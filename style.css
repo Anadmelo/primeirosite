@@ -111,7 +111,9 @@ section{
     width: 100%; /* A imagem vai ocupar 100% do contêiner */
     height: auto;
 }
-
+ #div{
+    overflow-block: auto;
+ }
 
 #eu{
     color: white;
