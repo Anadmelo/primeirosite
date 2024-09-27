@@ -18,7 +18,7 @@
     background-position: center bottom;
     width: 100vw; /* A imagem vai ocupar 100% do contêiner */
     height: 70vh;
-    display: flexbox; 
+    display: block; 
     justify-content: center;
 }
 
