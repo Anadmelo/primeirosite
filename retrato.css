@@ -1,13 +1,35 @@
 @charset "UTF-8";
 
+.img{
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.767);
+    background-attachment: fixed;
+    align-items: center;
+    display: block;
+    justify-content: center;
+
+}
 #img1{
     
     background-image: url(imagens/img12.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    width: 100%; /* A imagem vai ocupar 100% do contêiner */
-    height: auto;
-    display: flex;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100vw; /* A imagem vai ocupar 100% do contêiner */
+    height: 70vh;
+    display: flexbox; 
+    justify-content: center;
+}
+
+#img2{
+    height: 30vh;
+    background-image: url(imagens/img22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100vw; /* A imagem vai ocupar 100% do contêiner */
+    height: 70vh;
+    display: flexbox; 
     justify-content: center;
 }
