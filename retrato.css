@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#img1{
+    
+    background-image: url(imagens/img12.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%; /* A imagem vai ocupar 100% do contêiner */
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
