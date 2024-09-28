@@ -6,9 +6,11 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+html{
+    height:100vh ;
+}
 html, body{
-    min-height: 100vh;
+    
     background-color: rgb(255, 255, 255);
 }
 
@@ -96,9 +98,10 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin: auto;
     width: 100%; /* A imagem vai ocupar 100% do contêiner */
     height: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
