@@ -5,10 +5,10 @@
     background-image: url(imagens/Captura\ de\ tela\ 2024-09-27\ 210842.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: fixed center;
     width: 100%; /* A imagem vai ocupar 100% do contêiner */
     height: auto;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    width: 100vw; /* A imagem vai ocupar 100% do contêiner */
+    width: 70vw; /* A imagem vai ocupar 100% do contêiner */
     height: 70vh;
     display: flexbox; 
     justify-content: center;
