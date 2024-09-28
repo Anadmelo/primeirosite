@@ -97,7 +97,7 @@ section{
     background-size: cover;
     background-position: center center;
     width: 100%; /* A imagem vai ocupar 100% do contêiner */
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
