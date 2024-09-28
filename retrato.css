@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed center;
-    width: 100%; /* A imagem vai ocupar 100% do contêiner */
+    width: auto; /* A imagem vai ocupar 100% do contêiner */
     height: auto;
     display: block;
     justify-content: center;
@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    width: 70vw; /* A imagem vai ocupar 100% do contêiner */
+    width: 100%; /* A imagem vai ocupar 100% do contêiner */
     height: 70vh;
     display: flexbox; 
     justify-content: center;
